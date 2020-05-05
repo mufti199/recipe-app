@@ -2,6 +2,8 @@
 
 This project uses an API from EDAMAM to fetch the recipes. I have removed the API id and key as they require premium membership to be used by others. Thus, you'll need to get an id and key of your own. Don't worry, it takes just a minute.
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 <img src="images/1.PNG" width="70%">
 <img src="images/2.PNG" width="70%">
 
@@ -12,8 +14,6 @@ This project uses an API from EDAMAM to fetch the recipes. I have removed the AP
 3. Copy the id and key to the app.js file in ./src
 
 <img src="images/4.PNG" width="70%">
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### `npm start`
 
