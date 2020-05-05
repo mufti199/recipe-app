@@ -3,8 +3,9 @@ import "./App.css";
 import Recipes from "./Recipes";
 
 const App = () => {
-  const APP_ID = "bdbcd312";
-  const APP_KEY = "9f1f22f89412622c205c882d3a7611d8";
+  // Get ID and KEY from EDAMAM's API
+  const APP_ID = "INSERT HERE";
+  const APP_KEY = "INSERT HERE";
 
   // States and useEffects
   const [recipes, setRecipes] = useState([]);
