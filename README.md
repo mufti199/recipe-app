@@ -1,6 +1,6 @@
 ## Recipe-App
 
-This project uses an API from EDAMAM to fetch the recipes. I have removed the API id and key as they require premium membership to be used by others. Thus, you'll need to get an id and key of your own. Don't worry, it takes just a minute./
+This project uses an API from EDAMAM to fetch the recipes. I have removed the API id and key as they require premium membership to be used by others. Thus, you'll need to get an id and key of your own. Don't worry, it takes just a minute.\
 The app is hosted using Firebase, at https://recipe-app-278102.web.app/.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). If you'd like a tutorial on how to make a similar app then follow DevEd's [video](https://www.youtube.com/watch?v=U9T6YkEDkMo). 
