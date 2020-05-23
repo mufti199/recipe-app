@@ -21,7 +21,7 @@ const App = () => {
       //   let data = await response.json()
       //   console.log(data);
       // });
-  
+
       // Alternative - easier
       const response = await fetch(
         `https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`
@@ -32,8 +32,6 @@ const App = () => {
     };
     getRecipes();
   }, [query]);
-
-  
 
   // Update Search box
   const updateSearch = (search) => {
@@ -50,7 +48,7 @@ const App = () => {
   return (
     <div className="App">
       <form onSubmit={getSearch} className="search-form">
-        <input 
+        <input
           placeholder="Yum! Chicken! Craving something else?"
           type="text"
           className="search-bar"
@@ -62,7 +60,7 @@ const App = () => {
         </button>
       </form>
       <div className="recipes">
-      {recipes.map((recipe) => (
+        {recipes.map((recipe) => (
           <Recipes
             key={recipe.recipe.label}
             title={recipe.recipe.label}
@@ -71,7 +69,7 @@ const App = () => {
             ingredients={recipe.recipe.ingredients}
             url={recipe.recipe.url}
           />
-      ))}
+        ))}
       </div>
     </div>
   );

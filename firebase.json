@@ -1,0 +1,7 @@
+{
+  "hosting": {
+    "site": "recipe-app-278102",
+    "public": "build",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+  }
+}
